@@ -214,26 +214,91 @@ int main() {
     //     row++;
     // }
 
-     int row = 1;
-    int number = 1;
+    //  int row = 1;
+    // int number = 1;
 
-    while (row <= n) {
-        int col = 1;
+    // while (row <= n) {
+    //     int col = 1;
     
-        while (col <= n) {
-            if (col < row) {
-                cout << " ";
-            }
-            else {
-                cout << row;
-            }
-            col++;
-        }
+    //     while (col <= n) {
+    //         if (col < row) {
+    //             cout << " ";
+    //         }
+    //         else {
+    //             cout << row;
+    //         }
+    //         col++;
+    //     }
 
-        cout << endl;
+    //     cout << endl;
 
-        row++;
-    }
+    //     row++;
+    // }
+
+
+    // int row = 1;
+    // while (row <= n) {
+    //     int col = 1;
+    //     int number = 1;
+    //     int k = 1;
+
+    //     while (col <= n) {
+    //         if (col <= n - row) {
+    //             cout << " ";
+    //         }
+    //         else {
+    //             cout << number;
+    //             number++;
+    //         }
+    //         col++;
+    //     }
+
+    //     while (k <= row - 1 ) {
+    //         cout << row - k;
+    //         k++;
+    //     }
+
+    //     cout << endl;
+
+    //     row++;
+    // }
+
+    // int row = 1;
+
+    // while (row <= n) {
+    //     int col = 1;
+    //     int k = 1;
+
+    //     while (col <=n ) {
+    //         if (col <= n + 1 - row) {
+    //             cout << col;
+    //         }
+    //          else {
+    //              cout << "*";
+    //          }
+    //          col++;
+    //     }
+
+    //     while (k <= n) {
+    //         if (k <= row - 1) {
+    //             cout << "*";
+    //         }
+    //         else {
+    //             cout << n + 1 - k;
+    //         }
+    //         k++;
+    //     }
+
+    //     cout << endl;
+    //     row++;
+    // }
+
+        // result 
+        // 1234554321
+        // 1234**4321
+        // 123****321
+        // 12******21
+        // 1********1
 
     return 0;
 }
